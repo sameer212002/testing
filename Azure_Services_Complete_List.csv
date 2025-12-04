@@ -1,0 +1,261 @@
+No.,Service,Function,Category
+1,Virtual Machines,Run scalable Windows/Linux VMs.,Compute
+2,App Service,Host web apps and APIs.,Compute
+3,Functions,Execute serverless code.,Compute
+4,Kubernetes Service (AKS),Manage containerized apps.,Compute
+5,Container Instances,Run containers without orchestration.,Compute
+6,Batch,Run parallel compute jobs.,Compute
+7,Service Fabric,Build microservices-based apps.,Compute
+8,Dedicated Host,Host VMs on isolated physical servers.,Compute
+9,Spring Apps,Deploy Spring Boot apps.,Compute
+10,Azure Arc-enabled Servers,Manage on-premises servers from Azure.,Compute
+11,Azure HPC,Run high-performance computing workloads.,Compute
+12,Azure CycleCloud,Orchestrate HPC clusters.,Compute
+13,Azure Spot VMs,Use unused capacity at lower cost.,Compute
+14,Azure Reservations,Prepay for VMs to save costs.,Compute
+15,Azure Compute Gallery,Share VM images across subscriptions.,Compute
+16,Azure Cloud Services (classic),Deploy legacy cloud apps.,Compute
+17,Azure Remote Rendering,Render 3D content in real time.,Compute
+18,Azure Lab Services,Create labs for training/testing.,Compute
+19,Azure VMware Solution,Run VMware workloads in Azure.,Compute
+20,Azure Elastic Jobs,Automate database tasks across multiple databases.,Compute
+21,Blob Storage,Store unstructured data.,Storage
+22,File Storage,Provide shared file access.,Storage
+23,Disk Storage,Attach disks to VMs.,Storage
+24,Archive Storage,Store rarely accessed data.,Storage
+25,NetApp Files,Deliver enterprise-grade file storage.,Storage
+26,Elastic SAN,Provide scalable block storage.,Storage
+27,Data Lake Storage Gen2,Store big data for analytics.,Storage
+28,Storage Explorer,Manage storage visually.,Storage
+29,Queue Storage,Store messages for asynchronous processing.,Storage
+30,Table Storage,Store structured NoSQL data.,Storage
+31,Azure Backup,Protect data with cloud backups.,Storage
+32,Azure Site Recovery,Enable disaster recovery.,Storage
+33,Azure Import/Export,Transfer data using physical drives.,Storage
+34,Azure Data Box,Move large datasets physically.,Storage
+35,Azure File Sync,Sync on-prem files to Azure.,Storage
+36,Azure Storage Mover,Migrate storage workloads.,Storage
+37,Azure Blob Index Tags,Organize blob data with metadata.,Storage
+38,Azure AD DS-backed Storage,Use domain services with file shares.,Storage
+39,Azure Storage Encryption,Protect data at rest.,Storage
+40,Azure Storage Firewall Rules,Restrict access to storage endpoints.,Storage
+41,Cognitive Services,"Add vision, speech, and language AI.",AI & Machine Learning
+42,OpenAI Service,Use GPT models for natural language tasks.,AI & Machine Learning
+43,Machine Learning,Build and deploy ML models.,AI & Machine Learning
+44,Bot Services,Create intelligent chatbots.,AI & Machine Learning
+45,AI Search,Add search capabilities to apps.,AI & Machine Learning
+46,AI Studio,Develop generative AI apps.,AI & Machine Learning
+47,Applied AI Services,Use prebuilt AI for documents and metrics.,AI & Machine Learning
+48,AI Content Safety,Detect harmful content.,AI & Machine Learning
+49,Azure Form Recognizer,Extract data from forms and documents.,AI & Machine Learning
+50,Azure Face API,Detect and recognize faces.,AI & Machine Learning
+51,Azure Speech Services,Convert speech to text and vice versa.,AI & Machine Learning
+52,Azure Translator,Translate text across languages.,AI & Machine Learning
+53,Azure Language Understanding,Interpret user intent from text.,AI & Machine Learning
+54,Azure QnA Maker,Build FAQ bots.,AI & Machine Learning
+55,Azure Metrics Advisor,Detect anomalies in time-series data.,AI & Machine Learning
+56,Azure Personalizer,Deliver personalized content.,AI & Machine Learning
+57,Azure Custom Vision,Train image classification models.,AI & Machine Learning
+58,Azure Anomaly Detector,Identify unusual patterns in data.,AI & Machine Learning
+59,Azure Immersive Reader,Enhance reading comprehension.,AI & Machine Learning
+60,Azure Video Indexer,Extract insights from videos.,AI & Machine Learning
+61,Synapse Analytics,Unified big data and data warehouse analytics.,Analytics
+62,Data Factory,Orchestrate and transform data pipelines.,Analytics
+63,Stream Analytics,Analyze real-time streaming data.,Analytics
+64,Data Explorer,Query large datasets interactively.,Analytics
+65,Analysis Services,Build OLAP models for enterprise BI.,Analytics
+66,Databricks,Apache Spark-based analytics and ML.,Analytics
+67,HDInsight,"Run Hadoop, Spark, and Kafka clusters.",Analytics
+68,Power BI Embedded,Embed interactive reports in apps.,Analytics
+69,Azure Monitor Logs,Analyze telemetry with Kusto queries.,Analytics
+70,Log Analytics,Collect and analyze log data.,Analytics
+71,Azure Metrics,Track performance metrics across resources.,Analytics
+72,Azure Time Series Insights,Explore and visualize IoT time-series data.,Analytics
+73,Azure Data Share,Share data securely across organizations.,Analytics
+74,Azure Purview,Govern and catalog enterprise data.,Analytics
+75,Azure Data Lake Storage Gen2,Store big data for analytics.,Analytics
+76,Azure Event Hubs,Ingest millions of events per second.,Analytics
+77,Azure SQL Analytics,Monitor SQL performance at scale.,Analytics
+78,Azure Cost Analysis,Visualize and analyze cloud spending.,Analytics
+79,Azure Workbook Templates,Create dashboards from telemetry data.,Analytics
+80,Azure Data Catalog,Discover and manage data assets.,Analytics
+81,Microsoft Entra ID,Manage identities and access.,Identity & Security
+82,Azure Key Vault,Store secrets and certificates securely.,Identity & Security
+83,Defender for Cloud,Protect workloads with threat detection.,Identity & Security
+84,Azure Firewall,Control network traffic with rules.,Identity & Security
+85,DDoS Protection,Mitigate distributed denial-of-service attacks.,Identity & Security
+86,Information Protection,Classify and protect sensitive data.,Identity & Security
+87,Confidential Computing,Secure data in use with enclaves.,Identity & Security
+88,Sentinel,Cloud-native SIEM and SOAR platform.,Identity & Security
+89,AD Domain Services,Provide managed domain services.,Identity & Security
+90,Azure Policy,Enforce governance across resources.,Identity & Security
+91,Azure Role-Based Access Control,Manage permissions with roles.,Identity & Security
+92,Azure Security Center,Monitor and improve security posture.,Identity & Security
+93,Azure Privileged Identity Mgmt,Control access to sensitive resources.,Identity & Security
+94,Azure Identity Protection,Detect and respond to identity risks.,Identity & Security
+95,Azure Managed HSM,Use hardware security modules for key storage.,Identity & Security
+96,Azure Trust Center,Access compliance and security resources.,Identity & Security
+97,Azure Blueprints,Deploy compliant environments quickly.,Identity & Security
+98,Azure Lockbox,Control Microsoft support access to data.,Identity & Security
+99,Azure Defender for IoT,Secure connected devices and networks.,Identity & Security
+100,Azure Confidential Ledger,Maintain tamper-proof transaction records.,Identity & Security
+101,Virtual Network,"Create isolated, secure cloud networks.",Networking
+102,Load Balancer,Distribute traffic across resources.,Networking
+103,Application Gateway,Provide layer 7 routing and WAF protection.,Networking
+104,Azure DNS,Host and manage DNS zones.,Networking
+105,ExpressRoute,Establish private connections to Azure.,Networking
+106,Bastion,Secure VM access without public IPs.,Networking
+107,Traffic Manager,Route traffic based on performance and geography.,Networking
+108,Front Door,Accelerate and secure global web apps.,Networking
+109,Private Link,Access Azure services via private endpoints.,Networking
+110,Virtual WAN,Connect branch offices to Azure.,Networking
+111,Network Watcher,Monitor and diagnose network issues.,Networking
+112,Azure Firewall Manager,Centrally manage firewalls across regions.,Networking
+113,NAT Gateway,Provide outbound internet connectivity.,Networking
+114,Route Tables,Control traffic routing in virtual networks.,Networking
+115,Network Security Groups,Filter traffic to and from Azure resources.,Networking
+116,VPN Gateway,Connect on-premises networks securely.,Networking
+117,Azure Peering Service,Optimize connectivity to Microsoft services.,Networking
+118,Azure Internet Analyzer,Measure user experience across networks.,Networking
+119,Azure IPAM (Preview),Manage IP address space centrally.,Networking
+120,Azure Connection Monitor,Track network performance and availability.,Networking
+121,SQL Database,Managed relational database with high availability.,Databases
+122,Cosmos DB,Globally distributed NoSQL database.,Databases
+123,Database for MySQL,Fully managed MySQL database.,Databases
+124,Database for PostgreSQL,Fully managed PostgreSQL database.,Databases
+125,Database for MariaDB,Managed MariaDB database service.,Databases
+126,SQL Managed Instance,Lift-and-shift SQL workloads with full compatibility.,Databases
+127,Azure Cache for Redis,In-memory data store for fast access.,Databases
+128,Database Migration Service,Migrate databases with minimal downtime.,Databases
+129,Azure SQL Edge,Run SQL on IoT and edge devices.,Databases
+130,Azure Data API Builder,Auto-generate REST/GraphQL APIs for databases.,Databases
+131,Azure Synapse SQL Pools,Run distributed SQL queries on big data.,Databases
+132,Azure Elastic Database Pools,Share resources across multiple SQL databases.,Databases
+133,Azure Hyperscale (SQL),Scale out storage and compute for SQL.,Databases
+134,Azure Table Storage,Store structured NoSQL data.,Databases
+135,Azure Database for Oracle (Preview),Run Oracle workloads natively in Azure.,Databases
+136,Azure Managed Instance Link,Connect SQL MI to on-prem SQL Server.,Databases
+137,Azure SQL Analytics,Monitor SQL performance at scale.,Databases
+138,Azure SQL Insights,Deep performance monitoring for SQL.,Databases
+139,Azure Data Lake Storage Gen2,Store big data for analytics.,Databases
+140,Azure Data Catalog,Discover and manage data assets.,Databases
+141,Azure Monitor,Collect and analyze telemetry data.,Management & Governance
+142,Azure Policy,Enforce governance across resources.,Management & Governance
+143,Cost Management + Billing,Track and optimize cloud spending.,Management & Governance
+144,Azure Automation,Automate cloud tasks and processes.,Management & Governance
+145,Azure Advisor,Get personalized best practices.,Management & Governance
+146,Resource Manager,Deploy and manage resources via templates.,Management & Governance
+147,Azure Blueprints,Define compliant environments with templates.,Management & Governance
+148,Azure Lighthouse,Manage customer environments at scale.,Management & Governance
+149,Azure Resource Graph,Query and explore Azure resources.,Management & Governance
+150,Azure Service Health,Track service issues and outages.,Management & Governance
+151,Azure Activity Log,Audit operations across subscriptions.,Management & Governance
+152,Azure Change Analysis,Detect and analyze resource changes.,Management & Governance
+153,Azure Managed Applications,Deploy and manage third-party solutions.,Management & Governance
+154,Azure Reservations,Prepay for resources to reduce cost.,Management & Governance
+155,Azure Update Manager,Automate patching across VMs.,Management & Governance
+156,Azure Capacity Planning,Forecast resource needs and usage.,Management & Governance
+157,Azure Resource Visualizer,View dependencies between resources.,Management & Governance
+158,Azure Tagging,Organize resources with metadata.,Management & Governance
+159,Azure Management Groups,Group subscriptions for governance.,Management & Governance
+160,Azure Subscription Policies,Apply rules across multiple subscriptions.,Management & Governance
+161,Logic Apps,Automate workflows across services.,Integration & Messaging
+162,Event Grid,Route events from any source to any destination.,Integration & Messaging
+163,Service Bus,Enable reliable messaging between apps.,Integration & Messaging
+164,API Management,"Publish, secure, and monitor APIs.",Integration & Messaging
+165,Azure Relay,Connect on-prem services to cloud securely.,Integration & Messaging
+166,Azure Integration Service Environment,Run integration services in isolated environments.,Integration & Messaging
+167,Azure Notification Hubs,Send push notifications to mobile devices.,Integration & Messaging
+168,Azure Event Hubs,Ingest and process millions of events.,Integration & Messaging
+169,Azure SignalR Service,Add real-time web functionality.,Integration & Messaging
+170,Azure Web PubSub,Enable real-time messaging for web apps.,Integration & Messaging
+171,Azure Messaging Queue,Store and forward messages between components.,Integration & Messaging
+172,Azure API Center,Centralize API discovery and governance.,Integration & Messaging
+173,Azure API Gateway,Route and secure APIs at scale.,Integration & Messaging
+174,Azure Logic Apps Standard,Run workflows in isolated environments.,Integration & Messaging
+175,Azure Durable Functions,Manage stateful workflows in serverless apps.,Integration & Messaging
+176,Azure Integration Account,Store artifacts for B2B workflows.,Integration & Messaging
+177,Azure B2B Connector,Exchange messages with trading partners.,Integration & Messaging
+178,Azure Managed API Connectors,Use prebuilt connectors for SaaS apps.,Integration & Messaging
+179,Azure Workflow Automation,Trigger workflows based on events.,Integration & Messaging
+180,Azure Connector Catalog,Browse available connectors for integration.,Integration & Messaging
+181,Azure Migrate,"Discover, assess, and migrate workloads.",Migration
+182,Database Migration Service,Move databases to Azure with minimal downtime.,Migration
+183,Site Recovery,Enable disaster recovery for VMs.,Migration
+184,Resource Mover,Relocate resources across regions.,Migration
+185,Azure Import/Export,Transfer data using physical drives.,Migration
+186,Azure Data Box,Move large datasets physically.,Migration
+187,Azure Storage Mover,Migrate file shares to Azure.,Migration
+188,Azure App Migration Assistant,Assess and migrate web apps.,Migration
+189,Azure SQL Migration Extension,Migrate SQL Server to Azure SQL.,Migration
+190,Azure VM Migration Tool,Move VMs from on-prem to Azure.,Migration
+191,Azure AD Migration Toolkit,Transition identity services to Entra ID.,Migration
+192,Azure SAP Migration Framework,Migrate SAP workloads to Azure.,Migration
+193,Azure VMware Migration,Move VMware workloads to Azure.,Migration
+194,Azure Migration Insights,Analyze readiness and cost estimates.,Migration
+195,Azure Migration Accelerator,Speed up migration with automation.,Migration
+196,Azure Hybrid Benefit,Reduce costs during migration.,Migration
+197,Azure Migration API,Automate migration workflows.,Migration
+198,Azure Migration Templates,Use prebuilt templates for common scenarios.,Migration
+199,Azure Migration Reports,Generate migration assessments.,Migration
+200,Azure Migration Governance,Apply policies during migration.,Migration
+201,Azure DevOps,"Plan, build, test, and deploy apps.",Developer Tools
+202,GitHub Actions for Azure,Automate workflows from GitHub.,Developer Tools
+203,Azure Load Testing,Simulate high-scale load tests.,Developer Tools
+204,App Configuration,Centralize app settings and flags.,Developer Tools
+205,Azure Repos,Host Git repositories.,Developer Tools
+206,Azure Pipelines,Automate CI/CD workflows.,Developer Tools
+207,Azure Boards,Track work with Kanban and Scrum.,Developer Tools
+208,Azure Test Plans,Manage and execute test cases.,Developer Tools
+209,Azure Artifacts,Host and share packages.,Developer Tools
+210,Azure SDKs,Build apps using Azure libraries.,Developer Tools
+211,Azure CLI,Manage Azure resources via command line.,Developer Tools
+212,Azure PowerShell,Automate tasks with PowerShell scripts.,Developer Tools
+213,Azure Resource Manager Templates,Deploy infrastructure as code.,Developer Tools
+214,Azure Bicep,Use simplified syntax for ARM templates.,Developer Tools
+215,Azure Static Web Apps,Host static sites with serverless APIs.,Developer Tools
+216,Azure App Service Environment,Run apps in isolated environments.,Developer Tools
+217,Azure Developer CLI,Accelerate app development workflows.,Developer Tools
+218,Azure Container Apps,Deploy microservices without managing infrastructure.,Developer Tools
+219,Azure DevTest Labs,Create labs for dev/test environments.,Developer Tools
+220,Azure Code Signing,Digitally sign code and packages.,Developer Tools
+221,Azure Quantum,Explore quantum computing platforms.,Quantum & HPC
+222,Azure HPC,Run high-performance computing workloads.,Quantum & HPC
+223,Azure CycleCloud,Orchestrate HPC clusters.,Quantum & HPC
+224,Azure Batch,Schedule and run parallel jobs.,Quantum & HPC
+225,Azure GPU VMs,Accelerate compute with GPU-enabled VMs.,Quantum & HPC
+226,Azure InfiniBand Networking,Enable low-latency HPC communication.,Quantum & HPC
+227,Azure Quantum Workspace,Manage quantum jobs and resources.,Quantum & HPC
+228,Azure Quantum Simulator,Test quantum algorithms on simulators.,Quantum & HPC
+229,Azure Quantum Optimization,Solve complex optimization problems.,Quantum & HPC
+230,Azure Quantum ML Integration,Combine quantum with machine learning.,Quantum & HPC
+231,Azure Quantum Development Kit,Build quantum apps with Q# language.,Quantum & HPC
+232,Azure Quantum Resource Estimator,Predict quantum resource needs.,Quantum & HPC
+233,Azure Quantum Chemistry,Simulate molecular structures.,Quantum & HPC
+234,Azure Quantum Inspired Optimization,Use classical solvers for quantum-like problems.,Quantum & HPC
+235,Azure HPC Cache,Accelerate access to large datasets.,Quantum & HPC
+236,Azure Parallel File System,Enable fast file access for HPC.,Quantum & HPC
+237,Azure Quantum Job Monitor,Track quantum job status.,Quantum & HPC
+238,Azure Quantum Partner Access,"Use hardware from IonQ, Quantinuum, etc.",Quantum & HPC
+239,Azure Quantum Learning Hub,Learn quantum computing fundamentals.,Quantum & HPC
+240,Azure Quantum Security,Protect quantum workloads and data.,Quantum & HPC
+241,Communication Services,"Add voice, video, chat, and SMS.",Industry Solutions
+242,Health Data Services,Manage and analyze healthcare data.,Industry Solutions
+243,Energy Data Services,Handle energy industry data.,Industry Solutions
+244,IoT Central,Build and manage IoT solutions.,Industry Solutions
+245,Digital Twins,Simulate real-world environments.,Industry Solutions
+246,Azure for Retail,Deliver personalized retail experiences.,Industry Solutions
+247,Azure for Manufacturing,Optimize factory operations and supply chains.,Industry Solutions
+248,Azure for Financial Services,Secure and scale financial workloads.,Industry Solutions
+249,Azure for Government,Meet public sector compliance and security.,Industry Solutions
+250,Azure for Education,Enable digital learning environments.,Industry Solutions
+251,Azure for Media & Entertainment,Stream and manage digital content.,Industry Solutions
+252,Azure for Automotive,Power connected vehicle platforms.,Industry Solutions
+253,Azure Maps,Add geospatial capabilities to apps.,Industry Solutions
+254,Azure IoT Hub,Connect and manage IoT devices.,Industry Solutions
+255,Azure Sphere,Secure IoT devices with built-in OS.,Industry Solutions
+256,Azure Industrial IoT,Monitor and control industrial assets.,Industry Solutions
+257,Azure Connected Factory,Digitize manufacturing operations.,Industry Solutions
+258,Azure Smart City Solutions,Enable urban innovation and efficiency.,Industry Solutions
+259,Azure Sustainability Manager,Track and report environmental impact.,Industry Solutions
+260,Azure FarmBeats,Use AI and IoT for precision agriculture.,Industry Solutions
